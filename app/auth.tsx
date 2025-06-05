@@ -86,6 +86,7 @@ export default function Home() {
             bottom={"1.4%"}
             right={"1.5%"}
             chromeless
+            onPress={() => router.push('/lost&found')} // Only to visualize the changes in the lost&found page for now - Harshita
           >
             {"< dev login >"}
           </Button>
